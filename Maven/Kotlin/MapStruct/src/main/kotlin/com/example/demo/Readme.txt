@@ -1,0 +1,1 @@
+need to do mvn compile otherwise it cant autowiere the beans.
