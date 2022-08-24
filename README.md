@@ -4,7 +4,7 @@ Setting up new projects using build tools such as Maven and Gradle is relatively
 and frameworks that rely on annotations, then you have to consider the effects of the annotation processing on your
 build flow.
 
-## Build Process Problems
+## Build Process Problems 😡
 
 One of the most important steps in the build process is compilation. If we have annotations on our source code, then the
 annotation processing will also be performed.
@@ -21,7 +21,7 @@ Another problem is to support annotation processing in a language other than Jav
 introduced KAPT (Kotlin Annotation Processing Tool). Which enables annotation in the kotlin code during the java
 compilation.
 
-## Build Script Configurations
+## The Solution 💡 (Build Script Configurations)
 
 In this project we provide build script configurations for the following scenarios.
 
